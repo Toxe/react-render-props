@@ -27,14 +27,14 @@ export default class MouseTrackerAndCounter extends Component {
         return (
             <div className="Box" onMouseMove={this.handleMouseMove}>
                 <h1>MouseTrackerAndCounter</h1>
-                <p>
+                <div>
                     Current mouse position: ({this.state.x} / {this.state.y})
-                </p>
-                <p>
-                    Counter: {this.state.counter}
+                </div>
+                <div>Counter: {this.state.counter}</div>
+                <div>
                     <button onClick={this.decCounter}>-</button>
                     <button onClick={this.incCounter}>+</button>
-                </p>
+                </div>
             </div>
         );
     }
