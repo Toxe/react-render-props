@@ -17,7 +17,7 @@ export default class App extends Component {
                 <MouseTracker>
                     {(mouseX, mouseY) => (
                         <div className="Box">
-                            <h1>MouseTracker</h1>
+                            <h1>MouseTracker and Counter</h1>
                             <div>
                                 Current mouse position: ({mouseX} / {mouseY})
                             </div>
