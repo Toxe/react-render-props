@@ -46,7 +46,7 @@ export default class App extends Component {
                     )}
                 </MouseTracker>
 
-                {/* MouseTracker and Counter example 1, using a Box to render the content */}
+                {/* MouseTracker and Counter example 2, using a Box to render the content */}
                 <MouseTracker>
                     {(mouseX, mouseY) => (
                         <Counter>
